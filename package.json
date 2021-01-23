@@ -5,5 +5,9 @@
   "main": "index.js",
   "repository": "https://github.com/goodgoodcoder/tschain.git",
   "author": "goodgoodcoder <jongyunj@icloud.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "tsc"
+  }
 }
